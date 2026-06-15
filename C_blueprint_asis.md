@@ -18,7 +18,12 @@
 
 ## Blueprint
 
-| CAMADA | **ETAPA 1**<br>Conexão ao canal | **ETAPA 2**<br>Identificação da intenção | **↳ ETAPA 3 · RAMO A+C**<br>Redirecionamento externo ¹ | **↳ ETAPA 3 · RAMO B**<br>Autenticação | **↳ ETAPA 4 · RAMO B**<br>Consulta | **↳ ETAPA 5 · RAMO B**<br>Escalonamento *(condicional)* | **↳ ETAPA 3-4 · RAMO D**<br>Acolhimento + Registro | **↳ ETAPA 5 · RAMO D**<br>Encaminhamento |
+**Espinha dorsal da Jornada B (caminho mais completo — 5 etapas sequenciais na ótica do cidadão):**
+Etapa 1 — Conexão → Etapa 2 — Identificação da intenção → Etapa 3 — Autenticação → Etapa 4 — Consulta → Etapa 5 — Escalonamento
+
+*Os Ramos A+C e D compartilham as Etapas 1 e 2 universais; seus desdobramentos pós-bifurcação estão representados nas colunas correspondentes.*
+
+| CAMADA | **ETAPA 1**<br>Conexão ao canal | **ETAPA 2**<br>Identificação da intenção | **↳ ETAPA 3 · RAMO A+C**<br>Redirecionamento externo ¹ | **↳ ETAPA 3 · RAMO B**<br>Autenticação | **↳ ETAPA 4 · RAMO B**<br>Consulta | **↳ ETAPA 5 · RAMO B**<br>Escalonamento | **↳ ETAPA 3-4 · RAMO D**<br>Acolhimento + Registro | **↳ ETAPA 5 · RAMO D**<br>Encaminhamento |
 |---|---|---|---|---|---|---|---|---|
 | **EVIDÊNCIAS FÍSICAS** | Locução/menu URA | Tempo de espera em fila | ~~Protocolo ou comprovante de redirecionamento~~ ⚠1 | Senha Cidadão (6 dígitos DTMF) · Mensagem de bloqueio por tentativas ★ | Status Caixa Tem/Benefícios Sociais Caixa · Status CTPS Digital · Mensagens genéricas de erro · Calendário de pagamento · ~~Aviso de prazo de 67 dias~~ ⚠6 | — | Protocolo de reclamação | — |
 | **— LINHA DE INTERAÇÃO —** | | | | | | | | |
