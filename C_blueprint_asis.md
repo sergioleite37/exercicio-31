@@ -18,7 +18,7 @@
 
 ## Blueprint
 
-| CAMADA | **ETAPA 1**<br>Conexão ao canal | **ETAPA 2**<br>Identificação da intenção | **↳ RAMO A+C**<br>Redirecionamento externo ¹ | **↳ RAMO B·3**<br>Autenticação | **↳ RAMO B·4**<br>Consulta | **↳ RAMO B·5**<br>Escalonamento *(condicional)* | **↳ RAMO D·3/4**<br>Acolhimento + Registro | **↳ RAMO D·5**<br>Encaminhamento |
+| CAMADA | **ETAPA 1**<br>Conexão ao canal | **ETAPA 2**<br>Identificação da intenção | **↳ ETAPA 3 · RAMO A+C**<br>Redirecionamento externo ¹ | **↳ ETAPA 3 · RAMO B**<br>Autenticação | **↳ ETAPA 4 · RAMO B**<br>Consulta | **↳ ETAPA 5 · RAMO B**<br>Escalonamento *(condicional)* | **↳ ETAPA 3-4 · RAMO D**<br>Acolhimento + Registro | **↳ ETAPA 5 · RAMO D**<br>Encaminhamento |
 |---|---|---|---|---|---|---|---|---|
 | **EVIDÊNCIAS FÍSICAS** | Locução/menu URA | Tempo de espera em fila | ~~Protocolo ou comprovante de redirecionamento~~ ⚠1 | Senha Cidadão (6 dígitos DTMF) · Mensagem de bloqueio por tentativas ★ | Status Caixa Tem/Benefícios Sociais Caixa · Status CTPS Digital · Mensagens genéricas de erro · Calendário de pagamento · ~~Aviso de prazo de 67 dias~~ ⚠6 | Música de espera/hold · ~~Confirmação de transferência bem-sucedida~~ ⚠2 | Protocolo de reclamação | ~~Atualização proativa de status da reclamação~~ |
 | **— LINHA DE INTERAÇÃO —** | | | | | | | | |
