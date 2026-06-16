@@ -495,7 +495,7 @@ Se o artefato blueprint e o as-is estiverem prontos, entregue-me o resultado em 
 
 ## ASSISTANT
 
-Arquivo gerado em `C:\grill\C_blueprint_asis.md`.
+Arquivo gerado em `C:\exercicio3.1\C_blueprint_asis.md`.
 
 O artefato contém cinco seções: Legenda · Blueprint (tabela principal 9 colunas × 9 linhas de camada) · Notas estruturais · Fail points posicionados · Pontos em aberto prioritários · Rastreabilidade de decisões.
 
@@ -509,7 +509,7 @@ Gere também um resumo executivo do blueprint em uma página
 
 ## ASSISTANT
 
-Arquivo gerado em `C:\grill\C_blueprint_asis_resumo_executivo.md`.
+Arquivo gerado em `C:\exercicio3.1\C_blueprint_asis_resumo_executivo.md`.
 
 O resumo executivo organiza o blueprint em cinco blocos: cabeçalho · estrutura dos três ramos · cinco achados estruturais numerados · fail points por severidade · pré-condições para finalização.
 
@@ -523,7 +523,7 @@ A partir dos itens identificados no Service Blueprint AS-IS, elabore um diagrama
 
 ## ASSISTANT
 
-Arquivo gerado em `C:\grill\D_diagrama_asis.md`.
+Arquivo gerado em `C:\exercicio3.1\D_diagrama_asis.md`.
 
 O diagrama usa `flowchart LR` com quatro subgraphs (etapas universais + três ramos) e sete estilos de nó para tornar visíveis as camadas. A seção final "Relações estruturais destacadas" traduz em linguagem direta o que o desenho torna visível.
 

@@ -31,7 +31,7 @@ flowchart LR
     BIF{{"Intenção\nidentificada"}}
 
     subgraph AC ["Ramo A + C — Solicitar ou Renovar benefício"]
-        AC1["Redirecionamento externo\nURA Caixa Cidadão\nOrienta canais MTE verbalmente\n— backstage: aplica regra de canal —\n— suporte: base de canais de destino atualizada —\n⚠ FP1 Canal errado · sem protocolo entregue"]
+        AC1["Redirecionamento externo\nURA Caixa Cidadão\nOrienta canais MTE verbalmente\n— backstage: aplica regra de canal —\n— suporte: base de canais de destino atualizada —\n⚠ FP1 Canal errado · sem protocolo entregue\n⚠ FP10 Prazo perdido — cidadão fora da janela 7-120 dias não habilita"]
         ACout(["⬡ Saída — ecossistema MTE\n158 · App CTPS Digital\nSINE/SRTE · Portal Gov.br"])
     end
 
@@ -42,7 +42,7 @@ flowchart LR
         B1NS(["Sem senha cadastrada\norienta cadastro\nem lotérica ou agência"])
         B1BL(["★ FP3 CRÍTICO\nSenha bloqueada por tentativas DTMF\nDestino de desbloqueio INDETERMINADO ?"])
 
-        B2["CONSULTA\nURA / Atendente Humano Caixa\nVerbaliza status · data prevista de crédito · valor\n— backstage: recupera dados via SISGR · origem MTE —\n— suporte: SISGR · integração Caixa-MTE ? · apps ecossistema —\n⚠ FP5 divergência de status entre sistemas\n⚠ FP6 janela de 67 dias invisível ao cidadão\n⚠ FP7 mensagens genéricas de erro\n⚠ FP8 falhas sistêmicas em lote"]
+        B2["CONSULTA\nURA / Atendente Humano Caixa\nVerbaliza status · data prevista de crédito · valor\n— backstage: recupera dados via SISGR · origem MTE —\n— suporte: SISGR · integração Caixa-MTE ? · apps ecossistema —\n⚠ FP5 divergência de status entre sistemas\n⚠ FP6 janela de 67 dias invisível ao cidadão\n⚠ FP7 mensagens genéricas de erro\n⚠ FP8 falhas sistêmicas em lote\n⚠ FP11 confusão entre faixas de parcelas por nº de solicitação"]
 
         B3["ESCALONAMENTO — condicional\nAtendente Humano Caixa\nTransfere · informa status · orienta canais externos\n— backstage: limite de alçada Caixa quando depende do MTE —\n— suporte: 158 · agência · Reclame Aqui · Ouvidoria MTE —\n⚠ FP2 queda de ligação sem callback\n⚠ FP9 empurra-empurra Caixa-MTE"]
 
@@ -105,6 +105,8 @@ flowchart LR
 ---
 
 ### Tabela RACI — Responsabilidades e interações entre atores
+
+> **Referência cruzada:** esta tabela também está disponível em `C_blueprint_asis.md` — seção "Tabela RACI", consolidada com os demais elementos do blueprint.
 
 **Legenda:** R = Responsável (executa) · A = Aprovador/Autoridade (responde pelo resultado) · C = Consultado (fornece informação) · I = Informado (recebe o resultado)
 
