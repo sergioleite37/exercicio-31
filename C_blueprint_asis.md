@@ -3,6 +3,19 @@
 
 ---
 
+## Camadas (swim lanes) presentes no blueprint
+
+Este blueprint segue a metodologia Shostack com **5 camadas horizontais** distinguíveis:
+1. **Evidências Físicas** — artefatos, documentos e sinais perceptíveis ao cidadão em cada etapa
+2. **Ações do Cidadão** — comportamentos e decisões do usuário ao longo da jornada (perspectiva do cidadão)
+3. **Frontstage** — atores e interações visíveis ao cidadão (URA Caixa Cidadão e Atendente humano)
+4. **Backstage** — processos internos fora da visibilidade do cidadão (Caixa e lane externa MTE)
+5. **Processos de Suporte** — infraestrutura técnica e operacional que sustenta cada etapa
+
+As três linhas divisórias — Linha de Interação (entre Ações do Cidadão e Frontstage), Linha de Visibilidade (entre Frontstage e Backstage) e Linha de Interação Interna (entre Backstage e Processos de Suporte) — estão marcadas como linhas separadoras na tabela principal.
+
+---
+
 ## Legenda
 
 | Símbolo | Significado |
