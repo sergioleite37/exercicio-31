@@ -497,7 +497,7 @@ Se o artefato blueprint e o as-is estiverem prontos, entregue-me o resultado em 
 
 Arquivo gerado em `C:\exercicio3.1\C_blueprint_asis.md`.
 
-O artefato contém cinco seções: Legenda · Blueprint (tabela principal 9 colunas × 9 linhas de camada) · Notas estruturais · Fail points posicionados · Pontos em aberto prioritários · Rastreabilidade de decisões.
+O artefato contém cinco seções: Legenda · Blueprint (tabela principal 9 colunas × 10 linhas (7 camadas + 3 linhas divisórias)) · Notas estruturais · Fail points posicionados · Pontos em aberto prioritários · Rastreabilidade de decisões.
 
 ---
 
