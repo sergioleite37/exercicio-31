@@ -97,7 +97,7 @@ flowchart LR
 | **URA como ator único nas etapas universais** | As duas etapas de entrada são inteiramente operadas pela URA — o atendente humano só aparece a partir do Ramo B (consulta) e Ramo D (reclamação) |
 | **Canal errado como fail point de entrada** | O Ramo A+C termina imediatamente em saída — a URA não tem capacidade resolutiva para a intenção mais frequente (solicitar o benefício) |
 | **Autenticação como gargalo do Ramo B** | O nó de autenticação se ramifica em três saídas, uma delas crítica e com destino indeterminado — qualquer problema aqui bloqueia todo o ramo B |
-| **Concentração de fail points na consulta** | Quatro fail points (FP5, FP6, FP7, FP8) se acumulam em uma única etapa — a consulta é o maior núcleo de risco do canal após a autenticação |
+| **Concentração de fail points na consulta** | Cinco fail points (FP5, FP6, FP7, FP8, FP11) se acumulam em uma única etapa — a consulta é o maior núcleo de risco do canal após a autenticação |
 | **Escalonamento como antecâmara de saída** | O escalonamento não resolve — é estruturalmente uma transição para saída do canal, com risco adicional de queda de chamada antes de completar essa transição |
 | **Backstage MTE como origem invisível** | Os dados verbalizados na consulta têm origem MTE (SISGR), mas a integração tem mecanismo indeterminado — a divergência de status (FP5) é sistêmica, não acidental |
 | **Saídas sem protocolo nos Ramos A+C** | Ao contrário do Ramo D (que gera protocolo), os cidadãos redirecionados nos Ramos A e C saem sem nenhum artefato de continuidade |

@@ -489,6 +489,23 @@ Decisões finais registradas. Com isso, o blueprint AS-IS está fechado conceitu
 
 ## USER
 
+Adicione ao blueprint dois fail points adicionais identificados na pesquisa v3 e relevantes para o diagnóstico completo do serviço: (i) o prazo de requerimento perdido — cidadão que liga fora da janela de 7 a 120 dias após a demissão não pode ser habilitado, e a reversão exige erro comprovado do sistema ou decisão judicial (v3 §1.3 e §6.4), Ramo A+C, Frontstage; e (ii) a confusão entre faixas de parcelas por número de solicitação — a aplicação da tabela genérica "6–11 meses = 3 parcelas" a cidadão na 1ª solicitação gera expectativa de direito inexistente, pois esse perfil não atende à carência mínima de 12 meses (v3 §6.2 e §7 item 15), Ramo B Consulta, Frontstage + Backstage.
+
+---
+
+## ASSISTANT
+
+Decisão registrada. Fail points 10 e 11 adicionados. O blueprint passa a ter 11 fail points no total:
+
+| # | Fail point | Etapa | Ramo | Camada | Severidade |
+|---|---|---|---|---|---|
+| ⚠10 | Prazo de requerimento perdido — cidadão fora da janela 7–120 dias após demissão não pode ser habilitado; reversão apenas por erro comprovado do sistema ou decisão judicial (v3 §1.3 e §6.4) | Redirecionamento | A+C | Frontstage | Alta |
+| ⚠11 | Confusão entre faixas de parcelas por nº de solicitação — aplicação da faixa "6–11 meses = 3 parcelas" a cidadão na 1ª solicitação gera expectativa de direito inexistente, pois esse perfil não atende à carência mínima de 12 meses (v3 §6.2 e §7 item 15) | Consulta | B | Frontstage + Backstage | Alta |
+
+---
+
+## USER
+
 Se o artefato blueprint e o as-is estiverem prontos, entregue-me o resultado em arquivo, em formato .md, intitulado C_blueprint_asis.md
 
 ---
